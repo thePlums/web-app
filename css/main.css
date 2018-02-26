@@ -54,7 +54,6 @@ body {
   background-position: center center;
   background-image: url("../images/bike.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-2 {
@@ -65,7 +64,6 @@ body {
   background-position: center center;
   background-image: url("../images/flower.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-3 {
@@ -76,7 +74,6 @@ body {
   background-position: center center;
   background-image: url("../images/colour-palette.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-4 {
@@ -87,7 +84,6 @@ body {
   background-position: center top;
   background-image: url("../images/quotes-note.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-5 {
@@ -98,7 +94,6 @@ body {
   background-position: center center;
   background-image: url("../images/record-audio.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-6 {
@@ -109,7 +104,6 @@ body {
   background-position: center center;
   background-image: url("../images/butterfly-art.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-7 {
@@ -120,7 +114,6 @@ body {
   background-position: center top;
   background-image: url("../images/drawing-note.png");
   background-size: cover;
-  background-position: center;
 }
 
 .card-image-8 {
@@ -131,7 +124,6 @@ body {
   background-position: center center;
   background-image: url("../images/skateboard-video.png");
   background-size: cover;
-  background-position: center;
 }
 
 
