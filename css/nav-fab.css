@@ -29,7 +29,7 @@
 
 /* FAB button */
 
-.container {
+.container-nav {
   bottom: 0;
   position: fixed;
   margin: 1em;
@@ -66,7 +66,7 @@
           transform: translateY(50px);
 }
 
-.container:hover
+.container-nav:hover
 .buttons:not(:last-child) {
   opacity: 1;
   -webkit-transform: none;
