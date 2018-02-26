@@ -37,11 +37,11 @@ body {
     padding: 10px 20px;
 }
 
-a {
+.card-icons {
   color: #eee;
 }
 
-a:hover {
+.card-icons:hover {
   opacity: .5;
 }
 
