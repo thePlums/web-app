@@ -1,6 +1,6 @@
 /* FAB icons */
 
-.icon {
+.nav-icon {
   display: inline-block;
   position: relative;
   background: transparent none no-repeat center center;
@@ -8,17 +8,17 @@
   vertical-align: middle;
 }
 
-.i-32 {
+.nav-i-32 {
   height: 32px;
   width: 32px;
 }
-.i-48, .i--48 {
+.nav-i-48, .i--48 {
   height: 48px;
   width: 48px;
 }
 
-.icon img,
-.icon svg {
+.nav-icon img,
+.nav-icon svg {
   left: 0;
   height: 100%;
   position: absolute;
@@ -76,9 +76,9 @@
   margin: 15px auto 0;
 }
 
-/* Unessential styling for sliding up buttons at differnt speeds */
+/* Styling for sliding up buttons at differnt speeds */
 
-.buttons:nth-last-child(1) {
+/* .buttons:nth-last-child(1) {
   -webkit-transition-delay: 25ms;
           transition-delay: 25ms;
   background-size: contain;
@@ -100,9 +100,9 @@
   -webkit-transition-delay: 100ms;
           transition-delay: 60ms;
   background-size: contain;
-}
+} */
 
-/* Show tooltip content on hover */
+/* Tooltip for hover */
 
 [tooltip]:before {
   bottom: 25%;
