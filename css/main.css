@@ -22,19 +22,19 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    max-width: 323px;
-    background-color: #eee;
-    position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 323px;
+  background-color: #fff;
+  position: relative;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
 .container {
-    padding: 10px 10px;
+  padding: 10px;
 }
 
 .card-icon {
@@ -50,12 +50,12 @@ body {
   width: 20px;
 }
 
-.card-icons {
+.card-icon {
   color: #eee;
 }
 
-.card-icons:hover {
-  opacity: .5;
+.card-icon:hover {
+  opacity: .6;
 }
 
 .card-image-1 {
