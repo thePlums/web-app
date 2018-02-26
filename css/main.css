@@ -37,6 +37,19 @@ body {
     padding: 10px 10px;
 }
 
+.card-icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.card-i-20, .i--20 {
+  height: 20px;
+  width: 20px;
+}
+
 .card-icons {
   color: #eee;
 }
