@@ -1,16 +1,180 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Web app</title>
-  <link href="css/nav-fab.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../css/nav-fab.css" rel="stylesheet">
+<link href="../css/modules.css" rel="stylesheet">
+<link href="../css/grid.css" rel="stylesheet">
+<link href="../css/type.css" rel="stylesheet">
+<link href="../css/notes.css" rel="stylesheet">
+<style>
 
+.navbar {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #b4004e;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #ff77a9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #b4004e;
+}
+
+.show {
+  display: inline-block;
+}
+</style>
+</head>
 <body>
 
+  <nav class="container-nav">
+    <a href="#" class="buttons nav-icon nav-i-32" tooltip="Photo">
+      <img class="nav-icon nav-i-32" src="../icons/fab-photo.svg">
+    </a>
+    <a href="#" class="buttons nav-icon nav-i-32" tooltip="Video">
+      <img class="nav-icon nav-i-32" src="../icons/fab-video.svg">
+    </a>
+    <a href="#" class="buttons nav-icon nav-i-32" tooltip="Audio">
+      <img class="nav-icon nav-i-32" src="../icons/fab-audio.svg">
+    </a>
+    <a href="#" class="buttons nav-icon nav-i-32" tooltip="Notes">
+      <img class="nav-icon nav-i-32" src="../icons/fab-notes.svg">
+    </a>
+    <a href="#" class="buttons nav-icon nav-i-32" tooltip="Palettes">
+      <img class="nav-icon nav-i-32" src="../icons/fab-palettes.svg">
+    </a>
+    <a class="buttons nav-icon nav-i-48" tooltip="Add New" href="#">
+      <img class="nav-icon nav-i-48" src="../icons/fab-add.svg">
+    </a>
+  </nav>
+
+  <section class="note-tools island">
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Arial
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">New Times Roman</a>
+          <a href="#">Minion Pro</a>
+          <a href="#">Futura</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">11pt
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">8pt</a>
+          <a href="#">9pt</a>
+          <a href="#">10pt</a>
+          <a href="#">11pt</a>
+          <a href="#">12pt</a>
+          <a href="#">14pt</a>
+          <a href="#">16pt</a>
+          <a href="#">18pt</a>
+          <a href="#">20pt</a>
+        </div>
+      </div>
+      <div class="font-style-icons">
+        <a href="#">
+          <svg class="i-32" fill="#000000" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Bold</title><path d="M12.6,7a124.7,124.7,0,0,1,19-1.3c8.5,0,13.7.6,18.3,3A13.2,13.2,0,0,1,58,21c0,5-2.7,9.9-9.8,12.6v.2c7.3,2,11.8,7.4,11.8,14.6a16,16,0,0,1-6.8,13.1c-4.4,3.3-11.9,5.4-24.7,5.4a106.8,106.8,0,0,1-15.9-1ZM28.5,29.2h3.2c6.9,0,10.2-2.4,10.2-6.2s-2.7-5.7-8.1-5.7a30.8,30.8,0,0,0-5.3.3Zm0,25.8h4.7c5.3,0,9.9-2.1,9.9-7.4s-4.7-7.1-10.7-7.1H28.5Z"/></svg>
+        </a>
+
+        <a href="#">
+          <svg class="i-32" fill="#000000" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Italic</title><polygon points="44.3 12.9 35.7 58.4 53.1 58.4 53.1 65.7 8.6 65.7 8.6 58.4 23.3 58.4 28.3 58.4 36.9 12.9 18.9 12.9 18.9 5.7 63.4 5.7 63.4 12.9 44.3 12.9"/></svg>
+        </a>
+
+        <a href="#">
+          <svg class="i-32" fill="#000000" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Underline</title><path d="M24.2,6.2V35.6c0,11,4.9,15.7,11.5,15.7s12.1-4.9,12.1-15.7V6.2h6.4V35.1c0,15.2-8,21.4-18.7,21.4S17.8,50.8,17.8,35.4V6.2Z"/><polygon points="28.4 59.1 58.3 59.1 58.3 66.4 13.7 66.4 13.7 59.1 28.4 59.1"/></svg>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <svg class="i-32" fill="#000000" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Center</title><polygon points="41.1 19.9 20 19.9 20 25.6 51.5 25.6 51.5 19.9 41.1 19.9"/><polygon points="43.9 6.7 12.7 6.7 12.7 12.4 59.3 12.4 59.3 6.7 43.9 6.7"/><polygon points="43.9 33.2 12.7 33.2 12.7 38.8 59.3 38.8 59.3 33.2 43.9 33.2"/><polygon points="41.1 46.4 20 46.4 20 52.1 51.5 52.1 51.5 46.4 41.1 46.4"/><polygon points="43.9 59.6 12.7 59.6 12.7 65.3 59.3 65.3 59.3 59.6 43.9 59.6"/></svg>
+        </a>
+
+        <a href="#">
+          <svg class="i-32" fill="#000000" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Right</title><polygon points="48.9 19.9 27.7 19.9 27.7 25.6 59.3 25.6 59.3 19.9 48.9 19.9"/><polygon points="43.9 6.7 12.7 6.7 12.7 12.4 59.3 12.4 59.3 6.7 43.9 6.7"/><polygon points="43.9 33.2 12.7 33.2 12.7 38.8 59.3 38.8 59.3 33.2 43.9 33.2"/><polygon points="48.9 46.4 27.7 46.4 27.7 52.1 59.3 52.1 59.3 46.4 48.9 46.4"/><polygon points="43.9 59.6 12.7 59.6 12.7 65.3 59.3 65.3 59.3 59.6 43.9 59.6"/></svg>
+        </a>
+
+        <a href="#">
+          <svg class="i-32" fill="#000000" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72"><title>Justify</title><polygon points="27.3 19.9 58.5 19.9 58.5 25.6 11.9 25.6 11.9 19.9 27.3 19.9"/><polygon points="27.3 6.7 58.5 6.7 58.5 12.4 11.9 12.4 11.9 6.7 27.3 6.7"/><polygon points="27.3 33.2 58.5 33.2 58.5 38.8 11.9 38.8 11.9 33.2 27.3 33.2"/><polygon points="27.3 46.4 58.5 46.4 58.5 52.1 11.9 52.1 11.9 46.4 27.3 46.4"/><polygon points="27.3 59.6 58.5 59.6 58.5 65.3 11.9 65.3 11.9 59.6 27.3 59.6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-field island">
+    <textarea name="message" rows="10" cols="30">
+    </textarea>
+  </section>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
 </body>
 </html>
