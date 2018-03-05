@@ -17,7 +17,7 @@
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
   text-align: center;
   padding: 14px 16px;
@@ -31,8 +31,9 @@
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
+  border-radius: 0px;
   outline: none;
   color: #000;
   padding: 14px 16px;
@@ -67,6 +68,29 @@
 .dropdown-content a:hover {
   background-color: #b4004e;
 }
+
+.dropdown-content-size {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-size a {
+  float: none;
+  color: #ff77a9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-size a:hover {
+  background-color: #b4004e;
+}
+
 
 .show {
   display: inline-block;
@@ -112,7 +136,7 @@
         <button class="dropbtn" onclick="myFunction()">11pt
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
+        <div class="dropdown-content-size">
           <a href="#">8pt</a>
           <a href="#">9pt</a>
           <a href="#">10pt</a>
