@@ -143,36 +143,6 @@ body {
   background-size: cover;
 }
 
-.card-image-15 {
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/video1.png");
-  background-size: cover;
-}
-
-.card-image-16 {
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/video2.png");
-  background-size: cover;
-}
-
-.card-image-17 {
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/video3.png");
-  background-size: cover;
-}
-
 
 @media only screen and (min-width: 38em) {
 
@@ -260,18 +230,6 @@ body {
   .card-image-8 {
     height: 16em;
   }
-
-  .card-image-15 {
-    height: 16em;
-  }
-
-  .card-image-16 {
-    height: 16em;
-  }
-
-  .card-image-17 {
-    height: 16em;
-  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -305,18 +263,6 @@ body {
   }
 
   .card-image-8 {
-    height: 20em;
-  }
-
-  .card-image-15 {
-    height: 20em;
-  }
-
-  .card-image-16 {
-    height: 20em;
-  }
-
-  .card-image-17 {
     height: 20em;
   }
 }
