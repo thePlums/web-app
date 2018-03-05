@@ -13,4 +13,13 @@
 .record-info {
   max-width: 25em;
   color: #fff;
+  text-decoration: none;
+}
+
+.record-btn {
+  max-width: 5em;
+}
+
+.play-btn {
+  max-width: 1em;
 }
