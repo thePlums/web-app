@@ -5,3 +5,7 @@
 .soundwave {
   max-width: 25em;
 }
+
+.audio-gradient {
+  background: linear-gradient(#f35f82, #f47c57, #f79f1c);
+}
