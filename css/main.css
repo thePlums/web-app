@@ -158,53 +158,6 @@ body {
   background-size: cover;
 }
 
-.card-image-9 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/photo1.png");
-  background-size: cover;
-}
-
-.card-image-10 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/photo2.png");
-  background-size: cover;
-}
-
-.card-image-11 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/photo3.png");
-  background-size: cover;
-}
-
-.card-image-12 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/photo4.png");
-  background-size: cover;
-}
 
 @media only screen and (min-width: 38em) {
 
@@ -239,23 +192,6 @@ body {
   .card-image-8 {
     height: 14em;
   }
-
-  .card-image-9 {
-    height: 14em;
-  }
-
-  .card-image-10 {
-    height: 14em;
-  }
-
-  .card-image-11 {
-    height: 14em;
-  }
-
-  .card-image-12 {
-    height: 14em;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -291,23 +227,6 @@ body {
   .card-image-8 {
     height: 16em;
   }
-
-  .card-image-9 {
-    height: 16em;
-  }
-
-  .card-image-10 {
-    height: 16em;
-  }
-
-  .card-image-11 {
-    height: 16em;
-  }
-
-  .card-image-12 {
-    height: 16em;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -343,21 +262,4 @@ body {
   .card-image-8 {
     height: 20em;
   }
-
-  .card-image-9 {
-    height: 20em;
-  }
-
-  .card-image-10 {
-    height: 20em;
-  }
-
-  .card-image-11 {
-    height: 20em;
-  }
-
-  .card-image-12 {
-    height: 20em;
-  }
-
 }
