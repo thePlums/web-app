@@ -11,5 +11,6 @@
 }
 
 .record-info {
+  max-width: 25em;
   color: #fff;
 }
