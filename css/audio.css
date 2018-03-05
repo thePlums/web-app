@@ -1,0 +1,25 @@
+.dragdrop {
+  max-width: 10em;
+}
+
+.soundwave {
+  max-width: 25em;
+}
+
+.audio-gradient {
+  background: linear-gradient(#f35f82, #f47c57, #f79f1c);
+}
+
+.record-info {
+  max-width: 25em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.record-btn {
+  max-width: 5em;
+}
+
+.play-btn {
+  max-width: 2.5em;
+}
