@@ -60,6 +60,8 @@ body {
 }
 
 .card-image-1 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   min-height: 5em;
   width: auto;
@@ -71,6 +73,8 @@ body {
 }
 
 .card-image-2 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -81,6 +85,8 @@ body {
 }
 
 .card-image-3 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -91,6 +97,8 @@ body {
 }
 
 .card-image-4 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -101,6 +109,8 @@ body {
 }
 
 .card-image-5 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -111,6 +121,10 @@ body {
 }
 
 .card-image-6 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -121,6 +135,8 @@ body {
 }
 
 .card-image-7 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -131,6 +147,8 @@ body {
 }
 
 .card-image-8 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
   width: auto;
   height: 10em;
@@ -140,6 +158,53 @@ body {
   background-size: cover;
 }
 
+.card-image-9 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/photo1.png");
+  background-size: cover;
+}
+
+.card-image-10 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/photo2.png");
+  background-size: cover;
+}
+
+.card-image-11 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/photo3.png");
+  background-size: cover;
+}
+
+.card-image-12 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/photo4.png");
+  background-size: cover;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -172,6 +237,22 @@ body {
   }
 
   .card-image-8 {
+    height: 14em;
+  }
+
+  .card-image-9 {
+    height: 14em;
+  }
+
+  .card-image-10 {
+    height: 14em;
+  }
+
+  .card-image-11 {
+    height: 14em;
+  }
+
+  .card-image-12 {
     height: 14em;
   }
 
@@ -211,6 +292,22 @@ body {
     height: 16em;
   }
 
+  .card-image-9 {
+    height: 16em;
+  }
+
+  .card-image-10 {
+    height: 16em;
+  }
+
+  .card-image-11 {
+    height: 16em;
+  }
+
+  .card-image-12 {
+    height: 16em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -244,6 +341,22 @@ body {
   }
 
   .card-image-8 {
+    height: 20em;
+  }
+
+  .card-image-9 {
+    height: 20em;
+  }
+
+  .card-image-10 {
+    height: 20em;
+  }
+
+  .card-image-11 {
+    height: 20em;
+  }
+
+  .card-image-12 {
     height: 20em;
   }
 
