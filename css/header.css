@@ -2,6 +2,18 @@
   width: 100%;
   height: 3em;
   border-bottom: solid 2px lightgrey;
+  position: fixed;
+  z-index: 2000;
+  background-color: white;
+}
+
+.header-all a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header-all a:hover {
+  color: #ec407a;
 }
 
 .logo-top {

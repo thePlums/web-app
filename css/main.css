@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,6 +20,8 @@ html {
 body {
   background-color: #fff;
   margin: 0;
+  position: absolute;
+  min-height: 100%;
 }
 
 .card {
@@ -205,6 +208,11 @@ body {
     height: 14em;
   }
 
+  .all-cards {
+    padding-left: 12em;
+    padding-top: 3em;
+  }
+
   .card-image-15 {
     height: 14em;
   }
@@ -216,6 +224,7 @@ body {
   .card-image-17 {
     height: 14em;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
