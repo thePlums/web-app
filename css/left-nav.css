@@ -1,0 +1,51 @@
+.big-nav {
+  width: 12em;
+  height: 100%;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  border-right: solid 2px lightgrey;
+  padding-top: 3em;
+}
+
+.nav-buttons {
+  height: 2em;
+  padding: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+  border-left: solid 4px white;
+}
+
+.nav-buttons .nav-icon {
+  padding-right: 1em;
+}
+
+.nav-titles {
+  display: inline;
+  padding-left: 0.5em;
+  color: black;
+}
+
+.big-nav a {
+  text-decoration: none;
+}
+
+.big-nav a:hover p {
+  color: #ec407a;
+}
+
+.nav-icon svg {
+    fill: black;
+}
+
+.big-nav a:hover .nav-icon {
+  fill: #ec407a;
+}
+
+.big-nav .nav-buttons:focus {
+  border-left: solid 4px #ffc107;
+}
