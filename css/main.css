@@ -26,6 +26,7 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
   transition: 0.3s;
   max-width: 323px;
   background-color: #fff;
@@ -142,6 +143,36 @@ body {
   background-size: cover;
 }
 
+.card-image-15 {
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/video1.png");
+  background-size: cover;
+}
+
+.card-image-16 {
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/video2.png");
+  background-size: cover;
+}
+
+.card-image-17 {
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/video3.png");
+  background-size: cover;
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -182,6 +213,18 @@ body {
     padding-top: 3em;
   }
 
+  .card-image-15 {
+    height: 14em;
+  }
+
+  .card-image-16 {
+    height: 14em;
+  }
+
+  .card-image-17 {
+    height: 14em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -218,6 +261,17 @@ body {
     height: 16em;
   }
 
+  .card-image-15 {
+    height: 16em;
+  }
+
+  .card-image-16 {
+    height: 16em;
+  }
+
+  .card-image-17 {
+    height: 16em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -254,4 +308,15 @@ body {
     height: 20em;
   }
 
+  .card-image-15 {
+    height: 20em;
+  }
+
+  .card-image-16 {
+    height: 20em;
+  }
+
+  .card-image-17 {
+    height: 20em;
+  }
 }
