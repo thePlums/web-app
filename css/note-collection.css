@@ -1,0 +1,127 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  position: absolute;
+  min-height: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
+  transition: 0.3s;
+  max-width: 323px;
+  background-color: #fff;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.container {
+  padding: 10px;
+}
+
+.card-icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.card-i-20, .i--20 {
+  height: 20px;
+  width: 20px;
+}
+
+.card-icon {
+  color: #eee;
+}
+
+.card-icon:hover {
+  opacity: .6;
+}
+
+.card-image-4 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("../images/quotes-note.png");
+  background-size: cover;
+}
+
+.card-image-7 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 100%;
+  width: auto;
+  height: 10em;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("../images/drawing-note.png");
+  background-size: cover;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .card-image-4 {
+    height: 14em;
+  }
+
+  .card-image-7 {
+    height: 14em;
+  }
+
+  .all-cards {
+    padding-left: 12em;
+    padding-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card-image-4 {
+    height: 16em;
+  }
+
+  .card-image-7 {
+    height: 16em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card-image-4 {
+    height: 20em;
+  }
+
+  .card-image-7 {
+    height: 20em;
+  }
+
+}
