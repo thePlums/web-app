@@ -23,3 +23,7 @@
 .play-btn {
   max-width: 2.5em;
 }
+
+body {
+  width: 100%;
+}
