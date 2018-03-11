@@ -60,7 +60,7 @@ body {
   opacity: .6;
 }
 
-.card-image-8 {
+.card-image-4 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   max-width: 100%;
@@ -69,11 +69,11 @@ body {
   height: 10em;
   background-size: cover;
   background-position: center center;
-  background-image: url("../images/skateboard-video.png");
+  background-image: url("../images/quotes-note.png");
   background-size: cover;
 }
 
-.card-image-15 {
+.card-image-7 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   max-width: 100%;
@@ -82,52 +82,18 @@ body {
   height: 10em;
   background-size: cover;
   background-position: center center;
-  background-image: url("../images/video1.png");
-  background-size: cover;
-}
-
-.card-image-16 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  min-height: 5em;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/video2.png");
-  background-size: cover;
-}
-
-.card-image-17 {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  max-width: 100%;
-  min-height: 5em;
-  width: auto;
-  height: 10em;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../images/video3.png");
+  background-image: url("../images/drawing-note.png");
   background-size: cover;
 }
 
 
 @media only screen and (min-width: 38em) {
 
-  .card-image-8 {
+  .card-image-4 {
     height: 14em;
   }
 
-  .card-image-15 {
-    height: 14em;
-  }
-
-  .card-image-16 {
-    height: 14em;
-  }
-
-  .card-image-17 {
+  .card-image-7 {
     height: 14em;
   }
 
@@ -140,39 +106,22 @@ body {
 
 @media only screen and (min-width: 60em) {
 
-  .card-image-8 {
+  .card-image-4 {
     height: 16em;
   }
 
-  .card-image-15 {
+  .card-image-7 {
     height: 16em;
   }
-
-  .card-image-16 {
-    height: 16em;
-  }
-
-  .card-image-17 {
-    height: 16em;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
 
-  .card-image-8 {
+  .card-image-4 {
     height: 20em;
   }
 
-  .card-image-15 {
-    height: 20em;
-  }
-
-  .card-image-16 {
-    height: 20em;
-  }
-
-  .card-image-17 {
+  .card-image-7 {
     height: 20em;
   }
 

@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *, *::before, *::after {
@@ -60,7 +61,10 @@ body {
 }
 
 .card-image-3 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
+  min-height: 5em;
   width: auto;
   height: 10em;
   background-size: cover;
@@ -70,7 +74,10 @@ body {
 }
 
 .card-image-18 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
+  min-height: 5em;
   width: auto;
   height: 10em;
   background-size: cover;
@@ -80,7 +87,10 @@ body {
 }
 
 .card-image-19 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   max-width: 100%;
+  min-height: 5em;
   width: auto;
   height: 10em;
   background-size: cover;
@@ -102,6 +112,11 @@ body {
 
   .card-image-19 {
     height: 14em;
+  }
+
+  .all-cards {
+    padding-left: 12em;
+    padding-top: 3em;
   }
 
 }
