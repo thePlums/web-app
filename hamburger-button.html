@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Web app</title>
+  <link href="css/nav-fab.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/hamburger-button.css" rel="stylesheet">
+  <link href="css/left-nav.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+</head>
+
+<header>
+  <div class="header-all">
+    <img src="images/logo.svg" alt="Gather Logo" class="logo-top">
+    <a class="logout micro" href="#">LOG OUT</a>
+  </div>
+  </div>
+</header>
+
+<body>
+  <nav role="navigation" class="toggle absolute" itemprop="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a itemprop="url" align="left" class="exa bold" href="{{site.baseurl}}/#home"><li>Home</li></a>
+          <a itemprop="url" align="left" class="exa bold" href="{{site.baseurl}}/#about"><li>About me</li></a>
+          <a itemprop="url" align="left" class="exa bold" href="{{site.baseurl}}/#explore"><li>Explore</li></a>
+          <a itemprop="url" align="left" class="exa bold" href="{{site.baseurl}}/#contact"><li>Lets Chat!</li></a>
+        </ul>
+      </div>
+    </nav>
+
+<script>
+  var menuToggle=document.querySelector("#menuToggle input");
+  var menuLinks=document.querySelectorAll("#menuToggle a");
+
+  [].forEach.call(menuLinks, function(link){
+    link.addEventListener("click", function(){
+      menuToggle.checked=false;
+    });
+  });
+</script>
+</body>
+</html>
