@@ -104,3 +104,7 @@ a {
 a:hover {
   color: #b4004e;
 }
+
+.toggle {
+  background-color: #fff;
+}
