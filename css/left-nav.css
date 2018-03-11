@@ -46,6 +46,6 @@
   fill: #ec407a;
 }
 
-.big-nav .nav-buttons:focus {
+.current {
   border-left: solid 4px #ffc107;
 }
