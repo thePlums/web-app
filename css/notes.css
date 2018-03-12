@@ -16,6 +16,10 @@ body {
   text-decoration: none;
 }
 
+.grey-text {
+  color: grey;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
