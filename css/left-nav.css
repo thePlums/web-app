@@ -42,7 +42,7 @@
     fill: black;
 }
 
-.big-nav a:hover .nav-icon {
+.big-nav a:hover .nav-icon svg {
   fill: #ec407a;
 }
 
