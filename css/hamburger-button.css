@@ -7,10 +7,14 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+.big-nav {
+  display: none;
+}
+
 #menuToggle {
   display: block;
   position: fixed;
-  top: 80px;
+  top: 15px;
   left: 25px;
   z-index: 5;
 
@@ -107,4 +111,15 @@ a:hover {
 
 .toggle {
   background-color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .big-nav {
+    display: block;
+  }
+
+  .toggle {
+    display: none;
+  }
 }

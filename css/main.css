@@ -24,10 +24,6 @@ body {
   min-height: 100%;
 }
 
-.big-nav {
-  display: none;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -178,6 +174,10 @@ body {
 
 .dragdrop {
   width: 8em;
+}
+
+.all-cards {
+  padding-top: 3em;
 }
 
 @media only screen and (min-width: 38em) {
