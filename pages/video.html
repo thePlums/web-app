@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<title>Gather | Take a Video</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="../css/nav-fab.css" rel="stylesheet">
@@ -92,25 +94,14 @@
 </nav>
 
 <body>
-  <div class="pad-t-2 pad-b-2">
-    <div class="audio-content pad-t-2 audio-gradient">
-      <div class="record-info wrapper gutter pad-t-2">
-        <p class="yotta push-0 record-info">00:00.00</p>
-        <p class="micro push-0 record-info">New Video</p>
-        <p class="micro push-0 record-info">2018-08-12</p>
-      </div>
-      <div class="grid grid-middle wrapper text-center record-info pad-b-2">
-        <a class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
-          <img class="play-btn" src="../audio-icons/play-btn.svg">
-        </a>
-        <a class="unit xs-1-3 s-1-3 m-1-3 l-1-3" href="#">
-          <img class="record-btn" src="../audio-icons/record-btn.svg">
-        </a>
-        <a class="unit xs-1-3 s-1-3 m-1-3 l-1-3 record-info" href="#">Done</a>
+  <div class="palette-page">
+    <div class="drop-container">
+      <div class="text-center pad-t-2 gutter">
+        <img class="dragdrop" src="../audio-icons/dragdrop.svg">
+        <p class="island">Drag and drop an video here!</p>
       </div>
     </div>
-  </div>
-  <div class="palette-page">
+
     <h3 class="pad-t">Recent Videos</h3>
 
     <section id="card" class="grid grid-middle">
@@ -143,6 +134,7 @@
         </div>
       </div>
     </section>
+
   </div>
 
 </body>
