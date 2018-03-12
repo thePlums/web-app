@@ -17,10 +17,7 @@
 }
 
 .logo-top {
-  width: 8em;
-  margin: 4px 0px 8px 140px;
-  padding-left: 1em;
-
+  display: none;
 }
 
 .logout {
@@ -52,14 +49,14 @@
 
   .logo-top {
     width: 8em;
-    margin: 4px 0px 8px 0px;
+    margin: 4px 0px 8px 10px;
     padding-left: 1em;
-
+    display: block;
   }
 
   .logout {
     float: right;
+    margin-top: -2.5em;
     margin-right: 1em;
-    margin-top: 1em;
   }
 }
