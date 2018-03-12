@@ -166,8 +166,6 @@ body {
 }
 
 .palette-page {
-  padding-left: 12em;
-  padding-top: 3em;
   text-align: center;
   width: 100%;
 }
@@ -178,7 +176,16 @@ body {
   width: 100%;
 }
 
+.dragdrop {
+  width: 8em;
+}
+
 @media only screen and (min-width: 38em) {
+
+  .palette-page {
+    padding-left: 12em;
+    padding-top: 3em;
+  }
 
   .big-nav {
     display: block;
